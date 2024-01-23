@@ -264,6 +264,7 @@ nav ul li a:hover::after{
 }
 .contact-left p{
   margin-top: 30px;
+  color: #fff;
 }
 .contact-left i{
   color: #ff004f;
@@ -316,9 +317,6 @@ nav ul li a:hover::after{
   font-weight: 300;
   margin-top: 20px;
  }
- .copyright i{
-  color: #ff004f;
- }
 
  /*CSS FOR SMAlL SCREEN*/
  nav .bx{
@@ -365,16 +363,23 @@ nav ul li a:hover::after{
    }
    .about-col-1{
     margin-bottom: 30px;
+    width: 100px;
    }
    .about-col-2{
     font-size: 14px;
+    width: 100px;
    }
    .tab-links{
-    font-size: 16px;
+    margin-top: 40px;
+    font-size: 13px;
     margin-right: 20px;
+    width: 100%;
+   }
+   .bx bx-phone-call{
    }
    .contact-left, .contact-right{
     flex-basis: 100%;
+    color: #ff004f;
    }
    .copyright{
     font-size: 14px;
