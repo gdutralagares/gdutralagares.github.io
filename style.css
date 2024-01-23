@@ -327,9 +327,12 @@ nav ul li a:hover::after{
     width: 100%;
     height:60vh;
   }
+  .header-text h1 span{
+    color: #D8322D;
+  }
   .header-text{
     margin-top: 30%;
-    font-size: 16px;
+    font-size: 22px;
   }
   .header-text h1{
     font-size: 30px;
