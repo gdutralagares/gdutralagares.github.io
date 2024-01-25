@@ -237,9 +237,6 @@ nav ul li a:hover::after{
   border-radius: 50%;
   text-align: center;
 }
-.inline-child{
-  display: inline-block;
-}
 .work:hover img{
   transform: scale(1.1);
 }
