@@ -397,6 +397,9 @@ nav ul li a:hover::after{
   .social-icons{
     text-align: center;
    }
+   .sub-title{
+    text-align: center;
+   }
  
  }
  
