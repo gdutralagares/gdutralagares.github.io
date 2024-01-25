@@ -223,7 +223,7 @@ nav ul li a:hover::after{
 .layer h3{
   font-weight: 500;
   margin-bottom: 20px;
-  margin-top: 110px;
+  margin-top: 100px;
 }
 .layer a{
   display: inline-block;
@@ -402,6 +402,9 @@ nav ul li a:hover::after{
    .sub-title{
     text-align: center;
    }
+   .layer h3{
+    margin-top: 60px;
+  }
  
  }
  
