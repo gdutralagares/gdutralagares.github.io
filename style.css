@@ -277,6 +277,9 @@ nav ul li a:hover::after{
   margin-top: 30px;
   color: #fff;
 }
+.contact-left p:hover{
+  transform: translateY(-5px);
+}
 .contact-left i{
   color: #ff004f;
   margin-right: 15px;
