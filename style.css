@@ -197,6 +197,7 @@ nav ul li a:hover::after{
   position: relative;
   overflow: hidden;
 }
+
 .work img{
   width: 100%;
   border-radius: 10px;
@@ -238,6 +239,11 @@ nav ul li a:hover::after{
   height: 57px;
   border-radius: 50%;
   text-align:center;
+}
+.layer a:hover{
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
 }
 .work:hover img{
   transform: scale(1.1);
