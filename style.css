@@ -284,12 +284,17 @@ nav ul li a:hover::after{
   text-decoration: none;
   color: #fff;
   transition: transform 0.5s;
+  margin-bottom: 10px;
 }
 .btn:hover{
   background: #ff004f;
   transform: translateY(-10px);
 }
 /*CONTACT*/
+.container{
+  margin-bottom: 10px;
+  margin-top: none;
+}
 .contact-left{
   flex-basis: 35%;
 }
