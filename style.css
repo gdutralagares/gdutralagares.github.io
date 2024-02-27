@@ -67,7 +67,30 @@ nav ul li a:hover::after{
   margin-top: 20px;
   font-size: 60px;
 }
-.header-text h1 span{
+.header-text img{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+  color: #ff004f;
+  text-decoration: none;
+  font-size: 35px;
+  line-height: 60px;
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align:center;
+  cursor: pointer;
+}
+
+.header-text img:hover{
+  transform: translateY(-10px);
+  transition: 0.5s;
+  background-color: #D8322D;
+}
+
+.header-text h2{
+  font-size: 80px;
   color: #ff004f;
 }
 /* ------ABOUT------*/
