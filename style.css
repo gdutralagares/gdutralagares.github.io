@@ -360,7 +360,7 @@ nav ul li a:hover::after{
   margin-top: 20px;
  }
 
- /*CSS FOR SMAlL SCREEN*/
+ /*CSS FOR SMAlL SCREEN/////////////////////////////////////////////////*/
  nav .bx{
   display: none;
  }
@@ -371,11 +371,11 @@ nav ul li a:hover::after{
   }
   .header-text h2{
     color: #D8322D;
-    font-size: 30px;
+    font-size: 40px;
   }
   .header-text{
     margin-top: 30%;
-    font-size: 22px;
+    font-size: 20px;
   }
   .header-text h1{
     font-size:30px;
