@@ -369,16 +369,18 @@ nav ul li a:hover::after{
     width: 100%;
     height:60vh;
   }
-  .header-text h1 span{
+  .header-text h2{
     color: #D8322D;
+    font-size: 30px;
   }
   .header-text{
     margin-top: 30%;
     font-size: 22px;
   }
   .header-text h1{
-    font-size: 30px;
+    font-size:30px;
   }
+
   nav .bx{
     display: block;
     font-size: 35px;
