@@ -4,17 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Website</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
 </head>
 <body>
   <div id="header">
     <div class="container">
       <nav>
-        <img src="images/logo.png" class="logo">
+        <img src="images/logo2.png" class="logo">
         <ul id="sidemenu">
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
+          <li><a href="#services">Skills</a></li>
           <li><a href="#portfolio">Work</a></li>
           <li><a href="#contact">Contact</a></li>
           <i class='bx bxs-x-circle' onclick="closemenu()"></i>
@@ -45,7 +47,7 @@
           <div class="tab-titles">
             <p class="tab-links active-link"onclick="opentab('education')">Education</p>
             <p class="tab-links " onclick="opentab('skills')">Skills</p>
-            <p class="tab-links"onclick="opentab('experience')">Experince</p>
+            <p class="tab-links"onclick="opentab('experience')">Experience</p>
             <p class="tab-links"onclick="opentab('languages')">Languages</p>
           </div>
           <div class="tab-contents active-tab" id="education">
@@ -86,25 +88,25 @@
 <!--SERVICES-->
 <div id="services">
   <div class="container">
-    <h1 class="sub-title">My Services</h1>
+    <h1 class="sub-title">Skills</h1>
     <div class="services-list">
       <div>
         <i class='bx bx-code-alt'></i>
         <h2>Web Development</h2>
         <p>Writing HTML, CSS, and JavaScript code to build the structure, style, and interactivity of web pages</p>
-        <a href="#portfolio">Learn more</a>
+        <!--<a href="#portfolio">Learn more</a> -->
       </div>
       <div>
         <i class='bx bx-crop'></i>
         <h2>UI/UX</h2>
         <p>Designing and implementing the visual aspects of a website or web application</p>
-        <a href="#portfolio">Learn more</a>
+        <!--<a href="#portfolio">Learn more</a> -->
       </div>
       <div>
         <i class='bx bx-pen'></i>
         <h2>Frameworks</h2>
         <p>Using front-end frameworks and libraries such as React to streamline development and enhance the functionality of web applications.</p>
-        <a href="#portfolio">Learn more</a>
+        <!--<a href="#portfolio">Learn more</a> -->
       </div>
 
     </div>
@@ -116,8 +118,9 @@
 <div id="portfolio">
   <div class="container">
     <h1 class="sub-title">My Work</h1>
-    <div class="work-list">
-      <div class="work">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+      <div class="work swiper-slide">
         <img src="images/mywork1.png" alt="">
         <div class="layer">
           <h3>Chilly Bowl Website</h3>
@@ -126,7 +129,7 @@
           <a href="https://salad-project.netlify.app/" target="_blank" rel="noopener noreferrer"><i class='bx bx-link'></i></a>
         </div>
       </div>
-      <div class="work">
+      <div class="work swiper-slide">
         <img src="images/mywork2.png" alt="">
         <div class="layer">
           <h3>Eccomerce Website</h3>
@@ -135,7 +138,34 @@
           <a href="https://lagares-shop.netlify.app/" target="_blank" rel="noopener noreferrer"><i class='bx bx-link'></i></a>
         </div>
       </div>
-      <div class="work">
+      <div class="work swiper-slide">
+        <img src="images/mywork3.png"" alt="">
+        <div class="layer">
+          <h3>Drop Down Menu</h3>
+          <p>Feature in web design and are used to present a list of options or navigation choices in a hierarchical manner </p>
+          <a href="https://github.com/gdutralagares/DropDownMenu" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+          <a href="https://menu-drop.netlify.app/" target="_blank" rel="noopener noreferrer"><i class='bx bx-link'></i></a>
+        </div>
+      </div>
+      <div class="work swiper-slide">
+        <img src="images/mywork1.png" alt="">
+        <div class="layer">
+          <h3>Chilly Bowl Website</h3>
+          <p>A clean and visually appealing design that highlights the freshness of salads. Utilize images of colorful vegetables and ingredients to entice visitors.</p>
+          <a href="https://github.com/gdutralagares/salad-project" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+          <a href="https://salad-project.netlify.app/" target="_blank" rel="noopener noreferrer"><i class='bx bx-link'></i></a>
+        </div>
+      </div>
+      <div class="work swiper-slide">
+        <img src="images/mywork2.png" alt="">
+        <div class="layer">
+          <h3>Eccomerce Website</h3>
+          <p>An online platform designed for selling goods</p>
+          <a href="https://github.com/gdutralagares/e-comerce" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+          <a href="https://lagares-shop.netlify.app/" target="_blank" rel="noopener noreferrer"><i class='bx bx-link'></i></a>
+        </div>
+      </div>
+      <div class="work swiper-slide">
         <img src="images/mywork3.png"" alt="">
         <div class="layer">
           <h3>Drop Down Menu</h3>
@@ -145,10 +175,13 @@
         </div>
       </div>
     </div>
-    <a href="#" class="btn">See More</a>
-
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
   </div>
 </div>
+</div>
+
 <!--CONTACT-->
 <div id="contact">
   <div class="container">
@@ -159,8 +192,6 @@
         <!--<p><i class='bx bx-phone-call' ></i><FONT COLOR=white>(62)99181-0560</FONT></p> -->
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/gabriellagares/"><i class='bx bxl-linkedin-square'></i></a>
-          <a href="https://www.facebook.com/gabriel.dutra.3363"><i class='bx bxl-facebook-square'></i></a>
-          <a href="https://www.instagram.com/gabriel.lagares/"><i class='bx bxl-instagram-alt'></i></a>
           <a href="https://github.com/gdutralagares"><i class='bx bxl-github'></i></a>
         </div>
       </div>
@@ -168,36 +199,13 @@
   </div>
 </div>
   <div class="copyright">
-    <p>Copyright. Made by Gabriel Lagares</p>
+    <p className="copyright"> Copyright &#169; Gabriel Lagares</p>
   </div>
 </div>
 
 
-  <script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName('tab-contents');
-    function opentab(tabname){
-      for(tablink of tablinks){
-        tablink.classList.remove("active-link");
-      }
-      for(tabcontent of tabcontents){
-        tabcontent.classList.remove("active-tab");
-      }
-      event.currentTarget.classList.add("active-link");
-      document.getElementById(tabname).classList.add("active-tab");
-    }
-  </script>
-  <script>
-
-    var sidemenu = document.getElementById("sidemenu");
-
-    function openmenu(){
-      sidemenu.style.right = "0";
-    }
-    function closemenu(){
-      sidemenu.style.right = "-200px";
-    }
-  </script>
+<script src="javascript/swiper-bundle.min.js"></script>
+<script src="javascript/script.js"></script>
 
 
 

@@ -50,7 +50,7 @@ nav ul li a::after{
   content: '';
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background: #2196f3;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -71,7 +71,7 @@ nav ul li a:hover::after{
   display: inline-block;
   margin-top: 20px;
   margin-right: 10px;
-  color: #ff004f;
+  color: #2196f3;
   text-decoration: none;
   font-size: 35px;
   line-height: 60px;
@@ -81,17 +81,18 @@ nav ul li a:hover::after{
   border-radius: 50%;
   text-align:center;
   cursor: pointer;
+
 }
 
 .header-text img:hover{
   transform: translateY(-10px);
   transition: 0.5s;
-  background-color: #D8322D;
+  background-color: #2196f3;
 }
 
 .header-text h2{
   font-size: 80px;
-  color: #ff004f;
+  color: #2196f3;
 }
 /* ------ABOUT------*/
 #about{
@@ -141,7 +142,7 @@ nav ul li a:hover::after{
   content: '';
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background: #2196f3;
   position: absolute;
   left: 0;
   bottom: -5px;
@@ -155,7 +156,7 @@ nav ul li a:hover::after{
   margin: 10px 0;
 }
 .tab-contents ul li span{
-  color: #b54769;
+  color: #9acef8;
   font-size: 14px;
 }
 .tab-contents{
@@ -200,21 +201,26 @@ nav ul li a:hover::after{
   margin-top: 20px;
   display: inline-block;
 }
+.services-list div a:hover{
+  color: #000;
+}
 .services-list div:hover{
-  background: #ff004f;
+  background: #9acef8;
   transform: translateY(-20px);
+  color: #000;
 }
 
 /*PORTFOLIO*/
 #portfolio{
   padding: 50px 0;
 }
-.work-list{
+.swiper{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
 }
+
 .work{
   border-radius: 10px;
   position: relative;
@@ -230,7 +236,7 @@ nav ul li a:hover::after{
 .layer{
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0,0,0,0.3),#ff004f);
+  background: linear-gradient(rgba(0,0,0,0.3),#2196f3);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -253,7 +259,7 @@ nav ul li a:hover::after{
   display: inline-block;
   margin-top: 20px;
   margin-left: 10px;
-  color: #ff004f;
+  color: #2196f3;
   text-decoration: none;
   font-size: 35px;
   line-height: 60px;
@@ -278,7 +284,7 @@ nav ul li a:hover::after{
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #ff004f;
+  border: 1px solid #2196f3;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
@@ -287,9 +293,10 @@ nav ul li a:hover::after{
   margin-bottom: 10px;
 }
 .btn:hover{
-  background: #ff004f;
+  background: #2196f3;
   transform: translateY(-10px);
 }
+
 /*CONTACT*/
 .container{
   margin-bottom: 10px;
@@ -309,7 +316,7 @@ nav ul li a:hover::after{
   transform: translateY(-5px);
 }
 .contact-left i{
-  color: #ff004f;
+  color: #2196f3;
   margin-right: 15px;
   font-size: 25px;
 }
@@ -318,9 +325,9 @@ nav ul li a:hover::after{
 }
 .social-icons i{
   text-decoration: none;
-  font-size: 30px;
+  font-size: 40px;
   margin-right: 15px;
-  color: #ff004f;
+  color: #2196f3;
   display: inline-block;
   transition: tranform 0.5s;
 }
@@ -330,11 +337,11 @@ nav ul li a:hover::after{
 }
  .btn.btn2{
   display: inline-block;
-  background: #ff004f;
+  background: #2196f3;
   padding: 14px 30px;
  }
  .btn.btn2:hover{
-  background: #b54769;
+  background: #9acef8;
  }
  .contact-right form{
   width: 100%;
@@ -360,17 +367,18 @@ nav ul li a:hover::after{
   margin-top: 20px;
  }
 
+
  /*CSS FOR SMAlL SCREEN/////////////////////////////////////////////////*/
  nav .bx{
   display: none;
  }
- @media only screen and (max-width: 600px){
+ @media only screen and (max-width: 700px){
   #header{
     width: 100%;
     height:60vh;
   }
   .header-text h2{
-    color: #D8322D;
+    color: #2196f3;
     font-size: 40px;
   }
   .header-text{
@@ -386,7 +394,7 @@ nav ul li a:hover::after{
     font-size: 35px;
    }
    nav ul{
-    background: #D8322D;
+    background: #2196f3;
     position: fixed;
     top: 0;
     right: -200px;
@@ -430,14 +438,13 @@ nav ul li a:hover::after{
    }
    .contact-left, .contact-right{
     flex-basis: 100%;
-    color: #ff004f;
+    color: #2196f3;
+
    }
    .copyright{
     font-size: 14px;
    }
-  .social-icons{
-    text-align: center;
-   }
+ 
    .sub-title{
     text-align: center;
    }
