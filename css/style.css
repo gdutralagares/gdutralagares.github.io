@@ -220,7 +220,12 @@ nav ul li a:hover::after{
   grid-gap: 40px;
   margin-top: 50px;
 }
-
+.container .swiper-button-prev{
+  margin-left: -10px;
+}
+.container .swiper-button-next{
+  margin-right: -10px;
+}
 .work{
   border-radius: 10px;
   position: relative;
