@@ -1,4 +1,5 @@
 Portfolio:
 https://gdutralagares.github.io/
 
-![Portfolio Website](https://github.com/gdutralagares/gdutralagares.github.io/assets/61439293/41f0a903-7967-408e-90e7-2bede78b8616)
+
+![Portfolio Website](https://github.com/gdutralagares/gdutralagares.github.io/assets/61439293/3b055f3e-9e75-4e30-9baa-5bedc8baa73a)
