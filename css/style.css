@@ -266,8 +266,7 @@ nav ul li a:hover::after{
 }
 .layer h3{
   font-weight: 500;
-  margin-bottom: 20px;
-  margin-top: 100px;
+  margin: 50px;
 }
 .layer a{
   display: inline-block;
@@ -385,6 +384,19 @@ nav ul li a:hover::after{
  nav .bx{
   display: none;
  }
+
+ @media only screen and (max-width: 1160px){
+  .layer{
+    padding: 30px 40px;
+  }
+  .layer h3{
+    font-size: auto;
+   }
+   .layer p{
+    font-size: auto;
+  }
+  }
+
  @media only screen and (max-width: 700px){
   #header{
     width: 100%;
@@ -462,7 +474,7 @@ nav ul li a:hover::after{
     text-align: center;
    }
    .layer h3{
-    margin-top: 60px;
+    margin:auto
   }
  
  }
