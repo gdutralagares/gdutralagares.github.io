@@ -44,3 +44,8 @@ function opentab(tabname){
   event.currentTarget.classList.add("active-link");
   document.getElementById(tabname).classList.add("active-tab");
 }
+let scrolltop = document.querySelector(".scroll-top");
+
+window.addEventListener("scroll", () => {
+  scrolltop.classList.toggle("active", window.scrollY > 0);
+});

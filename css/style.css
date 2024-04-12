@@ -103,6 +103,28 @@ nav ul li a:hover::after{
   font-size: 80px;
   color: #2196f3;
 }
+.scroll-top {
+  position: fixed;
+  bottom: 1.6rem;
+  right: -100px;
+  padding: 5px;
+  font-size: 40px;
+  border-radius: 0.5rem;
+  color: #2196f3;
+  display: static;
+  align-items: center;
+  justify-content: center;
+  opacity: 80%;
+  z-index: 100;
+}
+.scroll-top:hover {
+  opacity: 100%;
+  transition: 0.3s all linear;
+}
+.scroll-top.active {
+  right: 1.5rem;
+  transition: 0.3s;
+}
 /* ------ABOUT------*/
 #about{
   padding: 10px 0;
