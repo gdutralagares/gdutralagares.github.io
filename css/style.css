@@ -259,9 +259,9 @@ nav ul li a:hover::after{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 40px;
+  padding: 0px 30px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   transition: height 0.5s;
 }
 .layer h3{
@@ -385,17 +385,51 @@ nav ul li a:hover::after{
   display: none;
  }
 
- @media only screen and (max-width: 1160px){
-
+ @media only screen and (max-width: 1364px){
   .layer h3{
-    font-size: auto;
-   }
-   .layer p{
-    font-size: auto;
+    margin:20px;
   }
+  .layer p{
+    font-size: 14px;
   }
+}
+@media only screen and (max-width: 1140px){
+  .layer h3{
+    margin:20px;
+    font-size: 14px;
+  }
+  .layer p{
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1035px){
+  .layer h3{
+    margin:20px;
+    font-size: 24px;
+  }
+  .layer p{
+    font-size: 18px;
+  }
+}
+  @media only screen and (max-width: 900px){
+  .layer h3{
+    margin:20px;
+  }
+  .layer p{
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 700px){
+  .layer h3{
+    margin:40px;
+    font-size: 34px;
+  }
+  .layer p{
+    font-size: 28px;
+  }
+}
 
- @media only screen and (max-width: 700px){
+ @media only screen and (max-width: 600px){
   #header{
     width: 100%;
     height:25vh;
@@ -411,7 +445,6 @@ nav ul li a:hover::after{
   .header-text h1{
     font-size:30px;
   }
-
   nav .bx{
     display: block;
     font-size: 35px;
@@ -472,8 +505,37 @@ nav ul li a:hover::after{
     text-align: center;
    }
    .layer h3{
-    margin:auto
+    margin:32px;
+    font-size: 24px;
   }
- 
+  .layer p{
+    font-size: 22px;
+  }
  }
- 
+ @media only screen and (max-width: 500px){
+  .layer h3{
+    margin:20px;
+    font-size: 24px;
+  }
+  .layer p{
+    font-size: 14px;
+  }
+} 
+@media only screen and (max-width: 400px){
+  .layer h3{
+    margin:20px;
+    font-size: 20px;
+  }
+  .layer p{
+    font-size: 12px;
+  }
+} 
+@media only screen and (max-width: 330px){
+  .layer h3{
+    margin:20px;
+    font-size: 18px;
+  }
+  .layer p{
+    font-size: 10px;
+  }
+}
