@@ -386,9 +386,7 @@ nav ul li a:hover::after{
  }
 
  @media only screen and (max-width: 1160px){
-  .layer{
-    padding: 30px 40px;
-  }
+
   .layer h3{
     font-size: auto;
    }
